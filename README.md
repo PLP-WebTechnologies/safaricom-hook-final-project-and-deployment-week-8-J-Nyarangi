@@ -1,66 +1,91 @@
-### **Assignment: Final Project – Designing, Coding, and Deploying a Multipage Website** 🌐🚀
+# 🛒 EverMall - Ecommerce Website
+
+![Ecommerce Banner](https://via.placeholder.com/1200x400?text=EverMall+Ecommerce+Website)
+
+## 🌟 Overview
+
+EverMall is a **simple frontend-based ecommerce website** where users can **browse products, add them to their cart, and simulate a checkout process**. The project is **static**, meaning it does not use a backend, database, or payment integration.
+
+## 🎯 Features
+
+✅ **Product Listing** - Browse various product categories  
+✅ **Shopping Cart** - Add, remove, and update cart items  
+✅ **Cart Toast Notification** - "Added to Cart" message with animated stars  
+✅ **Mobile Responsive** - Optimized for all screen sizes  
+✅ **User-Friendly UI** - Intuitive design for easy navigation  
+
+## 🔧 Technologies Used
+
+| Tech Stack | Description |
+|------------|-------------|
+| **Frontend** | HTML, CSS, JavaScript |
+| **Styling** | Custom CSS, Boxicons |
+| **Interactivity** | Vanilla JavaScript |
+
+## 🚀 Installation & Setup
+
+### 1️⃣ Clone the Repository
+```sh
+git clone https://github.com/PLP-WebTechnologies/safaricom-hook-final-project-and-deployment-week-8-J-Nyarangi.git
+cd safaricom-hook-final-project
+```
+
+### 2️⃣ Open the Project
+Simply open `index.html` in your browser.
+OR, if you have **Live Server (VS Code Extension)** installed:
+
+```sh
+npx live-server
+```
+
+## 📊 Project Flow
+
+### User Flow
+
+```mermaid
+graph TD;
+    User-->|Browse| Products;
+    Products-->|Add to Cart| Cart;
+    Cart-->|Show Notification| ToastNotification;
+    ToastNotification-->|Fades Out| Hidden;
+```
+
+## 🎨 Screenshots
+
+### 1️⃣ Homepage
+[Add homepage screenshot here]
+
+### 2️⃣ Product Page
+[Add product page screenshot here]
+
+## 📬 Contribution Guidelines
+
+We welcome contributions! Follow these steps:
+
+1. **Fork the repository**
+2. **Create a feature branch** (`git checkout -b feature-name`)
+3. **Commit your changes** (`git commit -m "Added new feature"`)
+4. **Push to your branch** (`git push origin feature-name`)
+5. **Open a Pull Request**
+
+## 📜 License
+
+This project is **open-source** under the MIT License.
+
+## 📬 Contact & Support
+
+For any issues or contributions, reach out:
+- 📧 Email: **contact@evermall.com**
+- 📌 GitHub Issues: [Report Issues](link-to-issues)
+
+## 🚀 Future Enhancements
+
+- Add product search functionality
+- Implement product filtering
+- Add user wishlist feature
+- Enhance mobile responsiveness
+- Add product reviews and ratings
 
 ---
 
-#### **Objective:**
-The goal of this assignment is to create a **multipage website** that is fully designed, coded, and deployed on a hosting platform. By the end of this project, you will have a comprehensive understanding of **front-end web development**, including **HTML5**, **CSS3**, **JavaScript**, and **deployment** to live servers. This will showcase your ability to build a **responsive** and **interactive** website that is ready for production.
-
----
-
-### **Project Requirements:**
-
-1. **Website Design**:
-   - **Design a website** that has at least **three pages** (e.g., Home, About, Contact).
-   - Each page should have **unique content** but maintain a consistent layout and design (using a **common theme** or **template**).
-   - The website should be **responsive**, meaning it must look good and function properly on devices of all sizes (desktop, tablet, mobile).
-   - You are encouraged to use **modern design trends** (flat design, minimalism, or material design) and **UI/UX principles**.
-
-2. **HTML5 Structure**:
-   - Use semantic HTML5 tags where appropriate (`<header>`, `<footer>`, `<main>`, `<section>`, etc.).
-   - Ensure the website has a **navigation menu** that allows users to navigate between pages.
-
-3. **CSS3 Styling**:
-   - Create a **style sheet** using **CSS3** to design your website (you may use **CSS frameworks** like **Bootstrap** or **TailwindCSS** to speed up the process, but it is not mandatory).
-   - Implement **CSS3 transitions** and **animations** to enhance interactivity (e.g., hover effects, smooth scrolling, fade-in elements).
-   - Make sure your website is **responsive**, using **media queries** to adjust the layout for various screen sizes.
-
-4. **JavaScript Functionality**:
-   - Incorporate **JavaScript** to add interactivity to your website (e.g., form validation, image sliders, modals, or interactive maps).
-   - Use **event listeners** (e.g., `onclick`, `onmouseover`) for user interactions.
-   - Ensure **form validation** is functional for all forms on the website (e.g., contact form, subscription form).
-
-5. **Optimizations**:
-   - Optimize your images (compress them without losing quality).
-   - Minify your CSS and JavaScript files.
-   - Test your website on various browsers (Chrome, Firefox, Safari) and devices to ensure compatibility.
-
-6. **Deployment**:
-   - Deploy your website to a **hosting platform**. Choose one of the following platforms for deployment:
-     - **GitHub Pages**
-     - **Netlify**
-     - **Vercel**
-   - Ensure that your website is **live** and accessible on the internet via a unique URL.
-
----
-
-### **Deliverables:**
-
-1. **Website Files**:
-   - HTML files for each page (e.g., `index.html`, `about.html`, `contact.html`).
-   - CSS file(s) for styling.
-   - JavaScript file(s) for functionality.
-   - All images and assets used in the project (stored in an `assets/` folder).
-   - README.md file with a description of the project and instructions on how to run it locally.
-
-2. **Live Website**:
-   - Provide a **link to the live website** deployed on your chosen hosting platform (GitHub Pages, Netlify, or Vercel).
-   - Ensure that the website is fully functional, responsive, and looks good across devices.
-
-3. **Documentation**:
-   - Write a brief **documentation** (100-200 words) explaining:
-     - Your design choices (why you chose the layout, colors, etc.).
-     - The features you implemented using **JavaScript** (e.g., form validation, interactive elements).
-     - Any challenges you faced during development and how you overcame them.
-     - The deployment process you followed.
-
----
+🛍️ **Enjoy shopping with EverMall!** 🚀
