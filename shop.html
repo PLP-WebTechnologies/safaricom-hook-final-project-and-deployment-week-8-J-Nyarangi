@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop - EverMall</title>
+    <!-- Box Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="css/shop.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <a href="#" class="logo">Evermall</a>
+        <div class='bx bx-menu' id="menu-icon"></div>
+        <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="categories.html">Shop</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="questions.html">FAQS</a></li>
+        </ul>
+        <i class='bx bx-shopping-bag' id="cart-icon"></i>
+    </header>
+
+    <!-- Cart -->
+    <div class="cart">
+        <h2 class="cart-title">Your Cart</h2>
+        <div class="cart-content">
+            <!-- Cart items will be added here dynamically -->
+        </div>
+        <div class="cart-total">
+            <div class="total-title">Total</div>
+            <div class="total-price">$0</div>
+        </div>
+        <button class="cart-btn">Place Order</button>
+        <i class='bx bx-x' id="close-cart"></i>
+    </div>
+
+    <!-- Toast Notification -->
+    <div id="cart-toast" class="cart-toast">
+        <span>Added to Cart</span>
+        <div class="stars"> ⭐ <span class="star">⭐</span> <span class="star">⭐</span> </div>
+    </div>
+
+    <!-- Shop section -->
+    <section class="products" id="categories">
+        <div class="heading">
+        </div>
+        <div class="products-container">
+            <div class="product-box">
+                <img src="img/product.png" alt="">
+                <div class="text">
+                    <h2>Product1</h2>
+                    <p>Discover the latest gadgets and electronics to keep you connected and entertained.</p>
+                    <span class="price">$45.00</span>
+                    <button class="add-cart">Add to Cart</button>
+                </div>
+            </div>
+            <div class="product-box">
+                <img src="img/product.png" alt="">
+                <div class="text">
+                    <h2>Product2</h2>
+                    <p>Upgrade your home with our reliable and energy-efficient appliances.</p>
+                    <span class="price">$55.00</span>
+                    <button class="add-cart">Add to Cart</button>
+                </div>
+            </div>
+            <div class="product-box">
+                <img src="img/product.png" alt="">
+                <div class="text">
+                    <h2>Product3</h2>
+                    <p>Find a wide variety of books, from bestsellers to timeless classics.</p>
+                    <span class="price">$65.00</span>
+                    <button class="add-cart">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/cart.js"></script>
+</body>
+</html>
