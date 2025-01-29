@@ -1,6 +1,7 @@
 # 🛒 EverMall - Ecommerce Website
 
-![Live Site](https://evermall.netlify.app/)
+🌐 Live Site
+Check out the live site: evermall.netlify.app
 
 ## 🌟 Overview
 
