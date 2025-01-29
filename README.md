@@ -1,6 +1,6 @@
 # 🛒 EverMall - Ecommerce Website
 
-![Ecommerce Banner](https://via.placeholder.com/1200x400?text=EverMall+Ecommerce+Website)
+![Live Site](https://evermall.netlify.app/)
 
 ## 🌟 Overview
 
