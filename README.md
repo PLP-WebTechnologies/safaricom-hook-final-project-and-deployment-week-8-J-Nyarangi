@@ -127,20 +127,6 @@ We welcome contributions! Follow these steps:
 
 ---
 
-## 📜 License
-
-This project is **open-source** under the [MIT License](LICENSE).
-
----
-
-## 📬 Contact & Support
-
-For any issues or contributions, reach out:  
-📧 Email: **contact@evermall.com**  
-📌 GitHub Issues: [Report Issues](https://github.com/PLP-WebTechnologies/safaricom-hook-final-project/issues)
-
----
-
 ## 🚀 Future Enhancements
 
 - Add product search functionality 🔍  
@@ -172,5 +158,19 @@ gitGraph
 ```
 
 ---
+---
 
+## 📜 License
+
+This project is **open-source** under the [MIT License](LICENSE).
+
+---
+
+## 📬 Contact & Support
+
+For any issues or contributions, reach out:  
+📧 Email: **contact@evermall.com**  
+📌 GitHub Issues: [Report Issues](https://github.com/PLP-WebTechnologies/safaricom-hook-final-project/issues)
+
+---
 🛍️ **Enjoy shopping with EverMall!** 🚀
