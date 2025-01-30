@@ -156,8 +156,6 @@ gitGraph
     merge develop
     commit
 ```
-
----
 ---
 
 ## 📜 License
