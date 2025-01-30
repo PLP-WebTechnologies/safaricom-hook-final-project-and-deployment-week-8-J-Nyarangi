@@ -1,8 +1,3 @@
-Here is a **README.md** file for your **EverMall** project, structured similarly to the **Modern Blog Website** template you provided. I have incorporated sections like **Features**, **Project Architecture**, **User Flow**, and more. Additionally, I added **Mermaid diagrams** and **JavaScript classes** to make the documentation more visually appealing and professional:
-
----
-
-```md
 # 🛒 EverMall - Ecommerce Website
 
 EverMall is a **simple frontend-based ecommerce website** where users can **browse products, add them to their cart, and simulate a checkout process**. Built with **HTML, CSS, and JavaScript**.
@@ -180,15 +175,3 @@ gitGraph
 ---
 
 🛍️ **Enjoy shopping with EverMall!** 🚀
-```
-
----
-
-### **Key Points**  
-- The **Live Site link** is clickable  
-- The **Mermaid diagrams** show the **project architecture** and **user flow**  
-- Features and contributions are clearly listed, along with **installation instructions**  
-- **Future enhancements** suggest how you can **expand the project**  
-- I have included a **Git workflow diagram** to show how changes are managed with **Git**  
-
-Let me know if you'd like any further adjustments or additional sections!
