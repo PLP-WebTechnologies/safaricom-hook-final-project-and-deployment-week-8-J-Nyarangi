@@ -68,7 +68,7 @@ mindmap
 | Tech Stack  | Description |
 |-------------|-------------|
 | **Frontend**  | HTML, CSS, JavaScript |
-| **Styling**  | Custom CSS, Boxicons |
+| **Styling**  | Custom CSS |
 | **Interactivity** | Vanilla JavaScript |
 
 ---
