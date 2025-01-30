@@ -146,7 +146,6 @@ For any issues or contributions, reach out:
 - Add product search functionality 🔍  
 - Implement product filtering by category and price  
 - Add user wishlist feature 💖  
-- Enhance mobile responsiveness 📱  
 - Add product reviews and ratings 🌟  
 
 ---
