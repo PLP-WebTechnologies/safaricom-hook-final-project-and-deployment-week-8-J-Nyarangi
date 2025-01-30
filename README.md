@@ -31,11 +31,26 @@ graph TD
 
 ## 🎯 Features
 
-### **Visual Effects & Animations**
-- Product cards with hover effects  
-- Cart toast notification with animated stars ✨  
-- Smooth transitions and loading animations  
-- Mobile-first approach with responsive design  
+### **CSS Features**
+- **Global Styling**: Uses Google Fonts (Poppins) and CSS variables for theming.
+- **Animations & Effects**: 
+  - Smooth transitions (`transition: all 0.3s ease;`).
+  - Scroll behavior (`scroll-behavior: smooth;`).
+  - Shadows and gradients for UI depth.
+- **Responsive Design**:
+  - Grid-based layout for product display.
+  - Mobile-first approach with flexbox.
+- **Custom Components**:
+  - Accordion for FAQ section.
+  - Styled buttons and hover effects.
+
+### **JavaScript Features**
+- **Navbar Toggle**: Opens and closes the menu (`menu.classList.toggle`).
+- **Cart Interactivity**: 
+  - Adds items to the cart.
+  - Updates cart UI.
+  - Handles cart closing.
+- **FAQ Accordion**: Expands/collapses FAQ sections with smooth animations.
 
 ```mermaid
 mindmap
@@ -68,7 +83,7 @@ mindmap
 | Tech Stack  | Description |
 |-------------|-------------|
 | **Frontend**  | HTML, CSS, JavaScript |
-| **Styling**  | Custom CSS |
+| **Styling**  | Custom CSS, Boxicons |
 | **Interactivity** | Vanilla JavaScript |
 
 ---
@@ -102,17 +117,6 @@ flowchart LR
     E --> F[Checkout Page]
     F --> G[Place Order]
 ```
-
----
-
-## 📸 Screenshots
-
-### 1️⃣ Homepage  
-![Homepage Screenshot](link-to-homepage-screenshot)
-
-### 2️⃣ Product Page  
-![Product Page Screenshot](link-to-product-page-screenshot)
-
 ---
 
 ## 📝 Contribution Guidelines
@@ -132,6 +136,7 @@ We welcome contributions! Follow these steps:
 - Add product search functionality 🔍  
 - Implement product filtering by category and price  
 - Add user wishlist feature 💖  
+- Enhance mobile responsiveness 📱  
 - Add product reviews and ratings 🌟  
 
 ---
@@ -156,11 +161,6 @@ gitGraph
     merge develop
     commit
 ```
----
-
-## 📜 License
-
-This project is **open-source** under the [MIT License](LICENSE).
 
 ---
 
@@ -169,6 +169,12 @@ This project is **open-source** under the [MIT License](LICENSE).
 For any issues or contributions, reach out:  
 📧 Email: **contact@evermall.com**  
 📌 GitHub Issues: [Report Issues](https://github.com/PLP-WebTechnologies/safaricom-hook-final-project/issues)
+
+---
+
+## 📜 License
+
+This project is **open-source** under the [MIT License](LICENSE).
 
 ---
 🛍️ **Enjoy shopping with EverMall!** 🚀
